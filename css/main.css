@@ -5,8 +5,17 @@
 body {
   display: flex;
   min-height: 100vh;
+  background-image: url("../assets/img/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  /* background-size: top; */
+  /* background-position:  */
+  background-color: hsl(225, 100%, 98%);
 }
-
+@media (max-width: 360px) {
+  body {
+    background-image: url("../assets/img/pattern-background-mobile.svg");
+  }
+}
 .card-wrapper {
   max-width: 300px;
   width: 90%;
@@ -19,6 +28,7 @@ body {
   gap: 1em;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 0.75rem;
+  background-color: #fff;
 }
 
 .card img {
