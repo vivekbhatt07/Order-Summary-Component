@@ -7,8 +7,6 @@ body {
   min-height: 100vh;
   background-image: url("../assets/img/pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  /* background-size: top; */
-  /* background-position:  */
   background-color: hsl(225, 100%, 98%);
 }
 @media (max-width: 360px) {
