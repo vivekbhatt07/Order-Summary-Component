@@ -29,8 +29,8 @@ body {
 .card-body {
   display: flex;
   flex-direction: column;
-  padding: 1em;
-  gap: 1em;
+  padding: 1.5em;
+  gap: 1.5em;
 }
 
 .card-title {
@@ -49,7 +49,7 @@ body {
   gap: 2em;
   justify-content: space-between;
   background-color: hsl(225, 100%, 98%);
-  border-radius: 0.75rem;
+  border-radius: 0.6rem;
   padding: 1rem;
 }
 
@@ -82,11 +82,35 @@ body {
 }
 
 .contained-btn {
-  background-color: blue;
+  background: linear-gradient(to right, #4776e6, #8e54e9);
   color: var(--btn-text-color);
+  transition-property: opacity, transform;
+  transition-duration: 0.8s, 0.2s;
 }
 
 .text-btn {
   background-color: transparent;
   color: hsl(224, 23%, 55%);
+  transition-property: background, color, transform;
+  transition-duration: 0.8s, 0.8s, 0.2s;
+}
+
+.contained-btn:hover,
+.contained-btn:focus {
+  opacity: 0.8;
+}
+
+.text-btn:hover,
+.text-btn:focus {
+  background: #eb3349;
+  /* background: linear-gradient(to right, #eb3349, #f45c43); */
+  color: #fff;
+}
+
+button {
+  transition-timing-function: ease-in-out;
+}
+
+button:active {
+  transform: scale(0.92);
 }
