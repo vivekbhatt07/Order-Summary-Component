@@ -34,5 +34,3 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 - Website - [Vivek Bhatt](https://vivekinfo.netlify.app/)
 - Frontend Mentor - [@vivekbhatt07](https://www.frontendmentor.io/profile/vivekbhatt07)
 - Twitter - [@vivekbhatt07](https://twitter.com/vivekbhatt07)
-
-*
